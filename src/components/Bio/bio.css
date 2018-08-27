@@ -1,0 +1,143 @@
+.bio {
+  background: white;
+}
+.bio .bio-container {
+  background: white;
+  width: 1000px;
+  margin: 0 auto;
+}
+.bio .bio-container .bio-header {
+  border-top: 1px solid #eee;
+  height: 176.4px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: solid 1px #eee;
+  color: #018080;
+}
+.bio .bio-container .bio-header p:first-child {
+  font-size: 54px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+}
+.bio .bio-container .bio-header p:nth-child(2) {
+  text-align: center;
+  color: #727878;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 25px auto 20px auto;
+}
+.bio .bio-container .bio-info-container {
+  width: 850px;
+  height: 453.6px;
+  margin: 0 auto;
+}
+.bio .bio-container .bio-info-container .bio-info-about {
+  float: left;
+  height: 100%;
+  width: calc(100%/3);
+}
+.bio .bio-container .bio-info-container .bio-info-about h1 {
+  padding-top: 50px;
+  font-size: 28px;
+  color: #018080;
+}
+.bio .bio-container .bio-info-container .bio-info-about p {
+  font-size: 15px;
+  line-height: 2;
+  text-align: left;
+  white-space: nowrap;
+}
+.bio .bio-container .bio-info-container .bio-info-pic {
+  float: left;
+  height: 100%;
+  width: calc(100%/3);
+  position: relative;
+}
+.bio .bio-container .bio-info-container .bio-info-pic div {
+  width: 220px;
+  height: 220px;
+  background: no-repeat center url("./../../assets/images/IMG_0154 copy 2.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 15px #f3efe0;
+  position: absolute;
+  top: 8%;
+  left: 5.7%;
+}
+.bio .bio-container .bio-info-container .bio-info-details {
+  float: left;
+  height: 100%;
+  width: calc(100%/3);
+}
+.bio .bio-container .bio-info-container .bio-info-details h3:first-child {
+  font-size: 28px;
+  padding-top: 50px;
+  color: #018080;
+  padding-bottom: 30px;
+}
+.bio .bio-container .bio-info-container .bio-info-details h4 {
+  margin-bottom: 20px;
+  font-weight: bold !important;
+}
+.bio .bio-container .bio-info-container .bio-info-details p {
+  margin-bottom: 20px;
+  color: #727878;
+}
+.bio .bio-container .bio-info-container .bio-info-details button {
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  background: #1b95e0;
+  border: none;
+}
+.bio .bio-container .bio-info-container .bio-info-details button i {
+  margin-right: 4px;
+}
+@media (max-width: 1000px) {
+  .bio .bio-container {
+    width: 100%;
+  }
+  .bio .bio-container .bio-info-container {
+    width: 100%;
+  }
+  .bio .bio-container .bio-info-container .bio-info-about {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    white-space: wrap;
+  }
+  .bio .bio-container .bio-info-container .bio-info-about p, .bio .bio-container .bio-info-container .bio-info-about h1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    white-space: normal;
+  }
+  .bio .bio-container .bio-info-container .bio-info-about .remove-linebreak {
+    display: none;
+  }
+  .bio .bio-container .bio-info-container .bio-info-pic {
+    width: 100%;
+    height: auto;
+  }
+  .bio .bio-container .bio-info-container .bio-info-pic div {
+    position: static;
+    margin: 30px auto;
+  }
+  .bio .bio-container .bio-info-container .bio-info-details {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .bio .bio-container .bio-header {
+    height: auto;
+  }
+}

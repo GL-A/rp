@@ -1,0 +1,66 @@
+.skills {
+  clear: both;
+}
+.skills .skills-abilities {
+  width: 70%;
+  background: white;
+  margin: 50px auto;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.skills .skills-abilities h1 {
+  font-size: 54px;
+  color: #018080;
+  font-weight: 300;
+  padding-top: 50px;
+}
+.skills .skills-abilities p {
+  text-align: center;
+  color: #727878;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 25px 0 20px 0;
+}
+.skills .skills-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+.skills .skills-icons .skills-icon {
+  width: calc(100%/5);
+  padding-top: 20px;
+  height: 150px;
+  background: white;
+  text-align: center;
+}
+.skills .skills-icons .skills-icon img {
+  height: 80px;
+  width: 80px;
+}
+.skills .skills-icons .skills-icon .express-icon {
+  padding-top: 20px;
+  height: 35px;
+  width: 85px;
+}
+.skills .skills-icons .skills-icon .gulp-icon {
+  width: auto;
+}
+@media (max-width: 1000px) {
+  .skills .skills-icons .skills-icon {
+    width: calc(100%/3);
+  }
+}
+@media (max-width: 450px) {
+  .skills .skills-icons .skills-icon {
+    width: calc(100%/2);
+  }
+}
+.glyph-sample{
+    color: #22A39F;
+    }
+.glyph-sample:hover { 
+    color:#018080; 
+}

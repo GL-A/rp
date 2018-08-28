@@ -23,7 +23,7 @@ const Projects = () => {
           return (
             <div key={idx} className="project-box">
               <h3>{ project.name }</h3>
-              <img src={ project.pic } />
+              <img alt={`screenshot of ${project.name}`} src={ project.pic } />
               <div className="project-box-buttons">
                 <a href={ project.site } target="blank"><button  ><i  className="fa fa-external-link" aria-hidden="true"></i> Visit page</button></a>
                 <a href={ project.github } target="blank"><button ><i className="fa fa-github" aria-hidden="true"></i> View code</button></a>

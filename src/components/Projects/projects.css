@@ -77,6 +77,15 @@
   padding: 2px 0;
   width: 50%;
 }
+@media( max-width: 500px) {
+  .projects .projects-div-2 .project-box .project-box-ul ul li {
+    padding: 2px 0;
+    /*width: 100%;*/
+  }
+  .projects .projects-div-2 .project-box .project-box-ul ul {
+    padding: 15px 30px;
+  }
+}
 .projects .projects-div-2 .project-box img {
   align-self: center;
   height: 250px;

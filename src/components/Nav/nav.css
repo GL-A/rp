@@ -35,7 +35,7 @@ button:focus {
     justify-content: center;
     width: 100%;
     top: 0;
-    background: #018080;
+    background: rgba(1, 128, 128, 0.5);
   }
   .sticky-nav .sticky-nav-div.nav-displace {
     margin-top: 0px;

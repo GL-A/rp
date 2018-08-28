@@ -15,19 +15,19 @@ const Contact = () => {
       </div>
       <div className="contact-div-2">
         <div className="contact-social-links">
-          <a href="https://www.linkedin.com/in/georgelopez-ayala/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/georgelopez-ayala/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin-square" aria-hidden="true"></i>
           <p>
             linkedin.com/in/georgelopez-ayala
           </p></a>
         </div>
         <div  className="contact-social-links">
-          <a href="mailto:georgelopezayala@icloud.com?Subject=Job%20opportunity" target="_top"><i className="fa fa-envelope" aria-hidden="true"></i>
+          <a href="mailto:georgelopezayala@icloud.com?Subject=Job%20opportunity" target="_top" ><i className="fa fa-envelope" aria-hidden="true"></i>
           <p>
             georgelopezayala@icloud.com
           </p></a>
         </div>
         <div className="contact-social-links">
-          <a href="https://github.com/swiftcode-design" target="_blank">
+          <a href="https://github.com/swiftcode-design" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github" aria-hidden="true"></i>
             <p>
               https://github.com/swiftcode-design & https://github.com/GL-A

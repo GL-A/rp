@@ -23,7 +23,7 @@ const Bio = () => {
                 <p>22 years</p>
                 <h4>Location:</h4>
                 <p>Portland, Oregon</p>
-                <a href="https://www.linkedin.com/in/georgelopez-ayala/" target="_blank"><button><i className="fa fa-linkedin-square" aria-hidden="true"></i>Connect</button></a>
+                <a href="https://www.linkedin.com/in/georgelopez-ayala/" target="_blank" rel="noopener noreferrer"><button><i className="fa fa-linkedin-square" aria-hidden="true"></i>Connect</button></a>
               </div>
             </div>
           </div>

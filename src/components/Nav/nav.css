@@ -6,10 +6,11 @@ button:focus {
 }
 .sticky-nav {
   position: fixed;
-  top: 10%;
+  display: flex;
+  top: 1%;
   /*right: 150px;*/
   /*top: 0;*/
-  right: 10%;
+  /*right: 50%;*/
   /*opacity: 0;*/
   z-index: 999;
   transition: all ease-in-out 0.5s;
@@ -18,7 +19,7 @@ button:focus {
   cursor: pointer;
   height: 45px;
   width: 90px;
-  background: rgba(0, 0, 0, 0.5);
+  background: #018080;
   color: white;
   text-align: center;
   transition: all ease-in-out 0.2s;
@@ -26,15 +27,15 @@ button:focus {
 .sticky-nav .sticky-nav-div p {
   padding-top: 17px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
+  .sticky-nav .sticky-nav-div {
+    background: rgba(0, 0, 0, 0.5);
+  }
   .sticky-nav {
-    display: flex;
     justify-content: center;
-    top: 0;
-    right: 0;
     width: 100%;
-    left: 50%;
-    margin-left: - 50%;
+    top: 0;
+    background: #018080;
   }
   .sticky-nav .sticky-nav-div.nav-displace {
     margin-top: 0px;

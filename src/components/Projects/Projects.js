@@ -5,9 +5,9 @@ import rootsOfFightPic from './../../assets/images/roots-of-fight-screenshot.png
 import movieAppPic from './../../assets/images/Screen Shot 2018-08-26 at 10.26.54 PM copy.png'
 
 const projects = [
-  {pic: myfamilystoryPic ,name: 'My Family Story', site: 'myfamilystory.swiftcode.design', github: 'https://github.com/GL-A/my-family-story', video: '', tech: ['Angular', 'jQuery', 'Node', 'Mongo', 'Bootstrap', 'Gulp', 'Sass'], overview: 'Interactive E-commerce site'},
-  {pic: rootsOfFightPic ,name: 'Roots of Fight', site: 'rootsoffight.swiftcode.design', github: 'https://github.com/GL-A/roots-of-fight', video: '', tech: ['Angular','jQuery','Node','JWT','Postgres', 'Gulp','Sass'], overview: 'Clone of Roots of Fight clothing store'},
-  {pic: movieAppPic, name: 'Movie App', site: 'movieapp123.netlify.com', github: 'https://github.com/GL-A/MovieApp', video: '', tech: ['React'], overview: 'React application pulling data from the moviedb api'}
+  {pic: myfamilystoryPic ,name: 'My Family Story', site: 'http://myfamilystory.swiftcode.design', github: 'https://github.com/GL-A/my-family-story', video: '', tech: ['Angular', 'jQuery', 'Node', 'Mongo', 'Bootstrap', 'Gulp', 'Sass'], overview: 'Interactive E-commerce site'},
+  {pic: rootsOfFightPic ,name: 'Roots of Fight', site: 'http://rootsoffight.swiftcode.design', github: 'https://github.com/GL-A/roots-of-fight', video: '', tech: ['Angular','jQuery','Node','JWT','Postgres', 'Gulp','Sass'], overview: 'Clone of Roots of Fight clothing store'},
+  {pic: movieAppPic, name: 'Movie App', site: 'https://movies123.netlify.com/', github: 'https://github.com/GL-A/MovieApp', video: '', tech: ['React'], overview: 'React application pulling data from the moviedb api'}
 ]
 
 const Projects = () => {
